@@ -1,20 +1,12 @@
-import { Benefit } from '@/components/Benefit'
-import Image from 'next/image'
+import { Class } from '@/components/Class'
 
 export default function Home() {
   return (
-    <Benefit
-      title="Awesome Teachers"
-      description="Vivamus interdum, mauris interdum quis curdum  sodales"
-      image={
-        <Image
-          src="/icons/mortarboard.svg"
-          alt="mortarboard"
-          width={55}
-          height={38}
-          priority
-        />
-      }
+    <Class
+      title="Basic English Speaking and Grammar"
+      time="Mon-Fri 10 AM - 12 AM"
+      teacher="Amanda Kern"
+      value="67"
     />
   )
 }
